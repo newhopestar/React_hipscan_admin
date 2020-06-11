@@ -1,0 +1,102 @@
+@import '../../assets/scss/config.scss';
+.launch-url{
+    .hipscan{
+        position:relative;
+        height:760px;
+        width: 100%;
+        display:flex;
+        .action-part{
+            flex: 66%;
+            height:100%;
+            .action-image{
+                width: 66%;
+                height: 100%;
+                position: absolute;
+                opacity: 0.03;
+                z-index: -1;
+                object-fit: cover;
+            }
+            .action{
+                padding:18px 80px;
+                .goto{
+                    text-decoration: none;
+                    color:$base-color;
+                    svg{
+                        margin-bottom: 3px;
+                    }
+                    
+                }
+                h1{
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    margin: 21px 0px;
+                    color:$font-color;
+                }
+                input{
+                    height: 57px;
+                    width: 560px;
+                    border-radius: 10px;
+                    border-color:$font-color;
+                    display: block;
+                    padding-left: 22px;
+                    outline:none;
+                }
+                .save-continue-btn {
+                    @extend %save-continue-btn;
+                }
+               
+            }
+        }
+        .preview-part{
+            flex:34%;
+            height:100%;
+            background-color:$gray-light;
+            position: relative;
+            .title{
+                text-align: center;
+                margin-top: 120px;
+                font-size: 19px;
+                font-weight: 500;
+                color:$font-color;
+            }
+            .phone-frame{
+                text-align: center;
+                .phone{
+                    width: 260px;
+                    position: absolute;
+                    left:50%;
+                    margin-left:-130px;
+                }
+                .phone-screen{
+                    background-color:#000000cc;
+                    width:260px;
+                    margin: auto;
+                    height: 525px;
+                    border-radius: 55px;
+                    padding: 8px;
+                    p{
+                        color: white;
+                        margin-top: 140px;
+                    }
+                    .icon{
+                        margin-top: 160px;
+                        margin-bottom: 16px;
+                        color:$base-color-light;
+                    }
+                    h5{
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 300;
+                    }
+                    iframe{
+                        border-radius: 33px;
+                    }
+                }
+            }
+        }
+
+    }
+    .statistics{
+        margin:0 7%;
+    }
+}

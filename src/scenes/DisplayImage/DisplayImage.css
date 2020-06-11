@@ -1,0 +1,114 @@
+.display-image .hipscan .action-part .action .save-continue-btn .btn {
+  width: 280px;
+  height: 57px;
+  background-color: #f36e21;
+  border: none;
+  border-radius: 9px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin: 35px 0px;
+  box-shadow: none; }
+
+.display-image .hipscan .action-part .action .display-custom-image {
+  position: relative;
+  display: flex;
+  width: 100%; }
+  .display-image .hipscan .action-part .action .display-custom-image input {
+    height: 57px;
+    width: 100%;
+    border-radius: 10px;
+    border-color: #414042;
+    padding-left: 22px;
+    border: 1px solid #414042;
+    outline: none; }
+  .display-image .hipscan .action-part .action .display-custom-image .icon {
+    position: absolute;
+    right: 0px;
+    background-color: #f78e1e;
+    color: white;
+    height: 57px;
+    width: 120px;
+    padding: 9px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #414042;
+    cursor: pointer; }
+  .display-image .hipscan .action-part .action .display-custom-image span {
+    border: 1px solid;
+    width: 100%;
+    height: 57px;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 20px;
+    color: #414042;
+    display: flex; }
+
+.display-image .hipscan {
+  position: relative;
+  height: 760px;
+  width: 100%;
+  display: flex; }
+  .display-image .hipscan .action-part {
+    flex: 66%;
+    height: 100%; }
+    .display-image .hipscan .action-part .action-image {
+      width: 66%;
+      height: 100%;
+      position: absolute;
+      opacity: 0.03;
+      z-index: -1;
+      object-fit: cover; }
+    .display-image .hipscan .action-part .action {
+      padding: 18px 80px; }
+      .display-image .hipscan .action-part .action .goto {
+        text-decoration: none;
+        color: #f36e21; }
+        .display-image .hipscan .action-part .action .goto svg {
+          margin-bottom: 3px; }
+      .display-image .hipscan .action-part .action h1 {
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin: 21px 0px;
+        color: #414042; }
+  .display-image .hipscan .preview-part {
+    flex: 34%;
+    height: 100%;
+    background-color: #efefef;
+    position: relative; }
+    .display-image .hipscan .preview-part .title {
+      text-align: center;
+      margin-top: 120px;
+      font-size: 19px;
+      font-weight: 500;
+      color: #414042; }
+    .display-image .hipscan .preview-part .phone-frame {
+      text-align: center; }
+      .display-image .hipscan .preview-part .phone-frame .phone {
+        width: 260px;
+        position: absolute;
+        left: 50%;
+        margin-left: -130px; }
+      .display-image .hipscan .preview-part .phone-frame .phone-screen {
+        background-color: #000000cc;
+        width: 260px;
+        margin: auto;
+        height: 525px;
+        border-radius: 55px;
+        padding: 8px; }
+        .display-image .hipscan .preview-part .phone-frame .phone-screen .image-preview {
+          width: 100%;
+          height: 100%;
+          object-fit: contain; }
+        .display-image .hipscan .preview-part .phone-frame .phone-screen .icon {
+          margin-top: 160px;
+          margin-bottom: 16px;
+          color: #f78e1e; }
+        .display-image .hipscan .preview-part .phone-frame .phone-screen h5 {
+          color: white;
+          font-size: 15px;
+          font-weight: 300; }
+
+.display-image .statistics {
+  margin: 0 7%; }

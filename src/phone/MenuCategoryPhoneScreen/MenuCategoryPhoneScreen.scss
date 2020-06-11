@@ -1,0 +1,128 @@
+@import '../../assets/scss/config.scss';
+.menu-category{
+    background-color:$gray-light;
+    width:100%;
+    margin: auto;
+    height: 100vh;
+    max-width: 415px;
+    max-height: 823px;
+    position:relative;
+    .category-phone{
+        width:100%;
+        height:25%;
+        .restaurant-photo {
+            position: absolute;
+            width: 100%;
+            height: 25%;
+            object-fit: cover;
+            justify-content: center;
+        }
+        .backdrop {
+            position: absolute;
+            width: 100%;
+            height: 25%;
+            background: #000000a6;
+        }
+        .back-btn{
+            color: white;
+            height:16%;
+            padding: 8px 8px 2px 8px;
+            cursor: pointer;
+            position: relative;
+        }
+        .avatar-name{
+            width: 100%;
+            height: 84%;
+            display:flex;
+            position: relative;
+            .avatar{
+                width: 100px;
+                height: 100px;
+                margin: auto;
+                border-radius: 50%;
+                border: 2px solid $base-color;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            .name{
+                color: white;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                margin-left: 10px;
+                p{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 2px;
+                }
+                span{
+                    font-size: 13px;
+                }
+            }
+        }
+        .title{
+            width: 100%;
+            height:50px;
+            background: white;
+            margin-bottom: 3px;
+            padding-left: 20px;
+            align-items: center;
+            display: flex;
+            p{
+                margin-bottom: 0px;
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+        }
+        .foods{
+            width: 100%;
+            height:180px;
+            background: white;
+            margin-bottom: 15px;
+            padding:10px 15px;
+            display: flex;
+            justify-content: space-between;
+            .food{
+                height:100%;
+                width:31%;
+                .image{
+                    width:100%;
+                    height: 100px;
+                    border-radius: 7px;
+                    object-fit: cover;
+                }
+                p{
+                    font-size: 10px;
+                    padding-top: 13px;
+                    margin-bottom: 5px;
+                    text-align: center;
+                }
+                h5{
+                    font-size: 12px;
+                    font-weight: bold;
+                     text-align: center;
+                }
+            }
+
+        }
+        .phone-footer{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            padding:20px ;
+            //position: relative;
+            p{
+                font-size: 9px;
+                font-weight: bold;
+                color: black;
+                margin-bottom: 0px;
+                padding-right: 6px;
+                letter-spacing: 1px;
+            }
+            img{
+                width: 65px;
+                height: 20px;
+            }
+        }
+    }
+}

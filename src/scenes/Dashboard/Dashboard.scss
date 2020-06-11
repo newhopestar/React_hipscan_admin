@@ -1,0 +1,170 @@
+@import '../../assets/scss/config.scss';
+.dashboard{
+    //height: 100vh;
+    .hipscan{
+        position:relative;
+        height:760px;
+        width: 100%;
+        display:flex;
+        .action-part{
+            flex: 66%;
+            height:100%;
+            .action-image{
+                width: 66%;
+                height: 100%;
+                position: absolute;
+                opacity: 0.03;
+                z-index: -1;
+                object-fit: cover;
+            }
+            .action{
+                padding:0px 80px;
+                display: flex;
+                .qr-code{
+                    flex:40%;
+                    height: 100%;
+                    padding:50px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    .label{
+                        text-align: center;
+                        margin-bottom: 0px;
+                    }
+                    .qrcodeimage{
+                        justify-content: center;
+                        display:flex;
+                        img{
+                            width:300px;
+                            height:300px;
+                        }
+                        
+                    }
+                    .color4{
+                        justify-content: center;
+                        display:flex;
+                        padding:30px;
+                        .black{
+                            background-color: black;
+                            width: 27px;
+                            height: 27px;
+                            margin: 0px 13px;
+                            cursor: pointer;
+                        }
+                        .green{
+                            background-color: #00b300;
+                            width: 27px;
+                            height: 27px;
+                            margin: 0px 13px;
+                            cursor: pointer;
+                        }
+                        .red{
+                            background-color: #820606;
+                            width: 27px;
+                            height: 27px;
+                            margin: 0px 13px;
+                            cursor: pointer;
+                        }
+                        .blue{
+                            background-color: #030369;
+                            width: 27px;
+                            height: 27px;
+                            margin: 0px 13px;
+                            cursor: pointer;
+                        }
+                    }
+                    .download-btn{
+                        display:flex;
+                        justify-content: center;
+                        .btn{
+                            background-color: $base-color-light;
+                            border: none;
+                            margin: 0px 5px;
+                            width: 80px;
+                            height: 30px;
+                            font-size: 12px;
+                            font-weight: 600;
+                            margin:0px 10px;
+                            outline: none;
+                        }
+                    }
+                }
+                .info-input{
+                    flex:60%;
+                    height:100%;
+                    padding:10px;
+                    h1{
+                        font-size: 20px;
+                        font-weight: 700;
+                        padding: 10px 0px;
+                        color: $font-color;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                    .action-btns{
+                        display: flex;
+                        flex-direction: column;
+                        .action-btn{
+                            margin: 10px 0px;
+                            background: white;
+                            border-color: black;
+                            border-radius: 12px;
+                            height: 44px;
+                            color:$font-color;
+                            text-align: left;
+                            font-size: 16px;
+                            font-weight: 600;
+                            padding-left: 25px;
+                        }
+                        .active {
+                            border-color:$base-color;
+                            border-width: 3px;
+                        }
+                    }
+                }
+            }
+        }
+        .preview-part{
+            flex:34%;
+            height:100%;
+            background-color:$gray-light;
+            position: relative;
+            .title{
+                text-align: center;
+                margin-top: 120px;
+                font-size: 19px;
+                font-weight: 500;
+                color:$font-color;
+            }
+            .phone-frame{
+                text-align: center;
+                .phone{
+                    width: 260px;
+                    position: absolute;
+                    left:50%;
+                    margin-left:-130px;
+                }
+                .phone-screen{
+                    background-color:#000000cc;
+                    width:260px;
+                    margin: auto;
+                    height: 525px;
+                    border-radius: 55px;
+                    padding: 8px;
+                    p{
+                        color: white;
+                        margin-top: 140px;
+                    }
+                    span{
+                        color:white;
+                    }
+                }
+            }
+        }
+
+    }
+    .statistics{
+        margin:0 7%;
+    }
+}

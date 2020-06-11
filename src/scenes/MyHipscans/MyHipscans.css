@@ -1,0 +1,207 @@
+.my-hipscans .hipscan .action-part .action .new-create-btn .btn {
+  width: 280px;
+  height: 57px;
+  background-color: #f36e21;
+  border: none;
+  border-radius: 9px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin: 35px 0px;
+  box-shadow: none; }
+
+.my-hipscans .hipscan {
+  position: relative;
+  height: 760px;
+  width: 100%;
+  display: flex; }
+  .my-hipscans .hipscan .action-part {
+    flex: 66%;
+    height: 100%; }
+    .my-hipscans .hipscan .action-part .action-image {
+      width: 66%;
+      height: 100%;
+      position: absolute;
+      opacity: 0.03;
+      z-index: -1;
+      object-fit: cover; }
+    .my-hipscans .hipscan .action-part .action {
+      padding: 18px 80px;
+      display: flex;
+      justify-content: space-between; }
+      .my-hipscans .hipscan .action-part .action .title {
+        flex: 70%;
+        padding-right: 200px; }
+        .my-hipscans .hipscan .action-part .action .title h1 {
+          font-weight: bold;
+          letter-spacing: 1px;
+          margin: 21px 0px;
+          color: #414042; }
+      .my-hipscans .hipscan .action-part .action .new-create-btn {
+        flex: 30%; }
+    .my-hipscans .hipscan .action-part .qr-s {
+      padding: 18px 80px;
+      display: flex;
+      justify-content: space-between; }
+      .my-hipscans .hipscan .action-part .qr-s .qr-first {
+        flex: 0 0 30%;
+        height: 400px; }
+        .my-hipscans .hipscan .action-part .qr-s .qr-first img {
+          margin-top: 10px;
+          margin-bottom: 20px;
+          width: 100%;
+          object-fit: contain; }
+        .my-hipscans .hipscan .action-part .qr-s .qr-first .active {
+          border: 1px solid orange;
+          border-radius: 10px; }
+        .my-hipscans .hipscan .action-part .qr-s .qr-first .label {
+          width: 100%;
+          height: 40px;
+          text-align: center;
+          display: flex; }
+          .my-hipscans .hipscan .action-part .qr-s .qr-first .label p {
+            font-size: 15px;
+            text-align: center;
+            margin-bottom: 0rem;
+            margin: auto; }
+          .my-hipscans .hipscan .action-part .qr-s .qr-first .label input {
+            width: 70%;
+            border-radius: 5px;
+            margin: auto; }
+        .my-hipscans .hipscan .action-part .qr-s .qr-first .eye-edit {
+          display: flex;
+          padding: 0px 20px; }
+          .my-hipscans .hipscan .action-part .qr-s .qr-first .eye-edit .eye {
+            display: flex;
+            margin: auto;
+            color: #f78e1e;
+            cursor: pointer; }
+          .my-hipscans .hipscan .action-part .qr-s .qr-first .eye-edit .edit {
+            display: flex;
+            margin: auto;
+            color: #f78e1e;
+            cursor: pointer; }
+          .my-hipscans .hipscan .action-part .qr-s .qr-first .eye-edit .delete {
+            display: flex;
+            margin: auto;
+            color: #f78e1e; }
+      .my-hipscans .hipscan .action-part .qr-s .qr-second {
+        flex: 0 0 30%;
+        height: 400px;
+        padding: 25px; }
+        .my-hipscans .hipscan .action-part .qr-s .qr-second img {
+          margin-top: 10px;
+          margin-bottom: 40px;
+          width: 100%;
+          height: 70%;
+          object-fit: contain; }
+        .my-hipscans .hipscan .action-part .qr-s .qr-second .label {
+          width: 100%;
+          height: 40px;
+          text-align: center;
+          display: flex; }
+          .my-hipscans .hipscan .action-part .qr-s .qr-second .label p {
+            font-size: 15px;
+            text-align: center;
+            margin-bottom: 0rem;
+            margin: auto; }
+          .my-hipscans .hipscan .action-part .qr-s .qr-second .label input {
+            width: 70%;
+            border-radius: 5px;
+            margin: auto; }
+        .my-hipscans .hipscan .action-part .qr-s .qr-second .eye-edit-delete {
+          display: flex;
+          padding: 0px 20px; }
+          .my-hipscans .hipscan .action-part .qr-s .qr-second .eye-edit-delete .eye {
+            display: flex;
+            margin: auto;
+            color: #f78e1e;
+            cursor: pointer; }
+          .my-hipscans .hipscan .action-part .qr-s .qr-second .eye-edit-delete .edit {
+            display: flex;
+            margin: auto;
+            color: #f78e1e;
+            cursor: pointer; }
+          .my-hipscans .hipscan .action-part .qr-s .qr-second .eye-edit-delete .delete {
+            display: flex;
+            margin: auto;
+            color: #f78e1e; }
+      .my-hipscans .hipscan .action-part .qr-s .qr-third {
+        flex: 0 0 30%;
+        height: 400px;
+        padding: 25px; }
+        .my-hipscans .hipscan .action-part .qr-s .qr-third img {
+          margin-top: 10px;
+          margin-bottom: 40px;
+          width: 100%;
+          height: 70%;
+          object-fit: contain; }
+        .my-hipscans .hipscan .action-part .qr-s .qr-third p {
+          font-size: 15px;
+          text-align: center;
+          margin-bottom: 1.5rem; }
+        .my-hipscans .hipscan .action-part .qr-s .qr-third .eye-edit-delete {
+          display: flex;
+          padding: 0px 20px; }
+          .my-hipscans .hipscan .action-part .qr-s .qr-third .eye-edit-delete .eye {
+            display: flex;
+            margin: auto;
+            color: #f78e1e;
+            cursor: pointer; }
+          .my-hipscans .hipscan .action-part .qr-s .qr-third .eye-edit-delete .edit {
+            display: flex;
+            margin: auto;
+            color: #f78e1e;
+            cursor: pointer; }
+          .my-hipscans .hipscan .action-part .qr-s .qr-third .eye-edit-delete .delete {
+            display: flex;
+            margin: auto;
+            color: #f78e1e; }
+  .my-hipscans .hipscan .preview-part {
+    flex: 34%;
+    height: 100%;
+    background-color: #efefef;
+    position: relative; }
+    .my-hipscans .hipscan .preview-part .title {
+      text-align: center;
+      margin-top: 120px;
+      font-size: 19px;
+      font-weight: 500;
+      color: #414042; }
+    .my-hipscans .hipscan .preview-part .phone-frame .phone {
+      width: 260px;
+      position: absolute;
+      left: 50%;
+      margin-left: -130px; }
+    .my-hipscans .hipscan .preview-part .phone-frame .phone-screen {
+      background-color: #000000cc;
+      width: 260px;
+      margin: auto;
+      height: 525px;
+      border-radius: 55px;
+      padding: 8px;
+      position: relative; }
+      .my-hipscans .hipscan .preview-part .phone-frame .phone-screen .background {
+        position: absolute;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        margin: -8px;
+        border-radius: 43px;
+        opacity: 0.1;
+        z-index: 22; }
+      .my-hipscans .hipscan .preview-part .phone-frame .phone-screen .icon {
+        margin-bottom: 16px;
+        color: #f78e1e;
+        display: flex;
+        margin: auto;
+        margin-top: 190px; }
+      .my-hipscans .hipscan .preview-part .phone-frame .phone-screen h5 {
+        color: white;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 15px; }
+
+.my-hipscans .statistics {
+  margin: 0 7%; }

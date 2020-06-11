@@ -1,0 +1,248 @@
+@import '../../assets/scss/config.scss';
+.my-hipscans{
+    .hipscan{
+        position:relative;
+        height:760px;
+        width: 100%;
+        display:flex;
+        .action-part{
+            flex: 66%;
+            height:100%;
+            .action-image{
+                width: 66%;
+                height: 100%;
+                position: absolute;
+                opacity: 0.03;
+                z-index: -1;
+                object-fit: cover;
+            }
+            .action{
+                padding:18px 80px;
+                display:flex;
+                justify-content: space-between;
+                .title{
+                    flex:70%;
+                    padding-right: 200px;
+                    h1{
+                        font-weight: bold;
+                        letter-spacing: 1px;
+                        margin: 21px 0px;
+                        color:$font-color;
+                    }
+                    p{
+
+                    }
+                }
+                .new-create-btn {
+                    flex:30%;
+                    @extend %save-continue-btn;
+                }
+            }
+            .qr-s{
+                padding:18px 80px;
+                display:flex;
+                justify-content: space-between;
+                .qr-first{
+                    flex:0 0 30%;
+                    height:400px;
+                    img{
+                        margin-top:10px;
+                        margin-bottom: 20px;
+                        width: 100%;
+                        object-fit: contain;    
+                    }
+                    .active{
+                        border: 1px solid orange;
+                        border-radius: 10px;
+                    }
+                    .label{
+                        width: 100%;
+                        height: 40px;
+                        text-align: center;
+                        display:flex;
+                        p{
+                            font-size: 15px;
+                            text-align: center;
+                            margin-bottom: 0rem;
+                            margin:auto;
+                        }
+                        input{
+                            width: 70%;
+                            border-radius: 5px;
+                            margin:auto;
+                        }
+                    }
+                    
+                    .eye-edit{
+                        display: flex;
+                        padding:0px 20px;
+                        .eye{
+                            display: flex;
+                            margin: auto;
+                            color: $base-color-light;
+                            cursor: pointer;
+                        }
+                        .edit{
+                            display: flex;
+                            margin: auto;
+                            color: $base-color-light;
+                            cursor: pointer;
+                        }
+                        .delete{
+                            display: flex;
+                            margin: auto;
+                            color: $base-color-light;
+                        }
+                    }
+                }
+                .qr-second{
+                    flex:0 0 30%;
+                    height:400px;
+                    padding:25px;
+                    img{
+                        margin-top:10px;
+                        margin-bottom: 40px;
+                        width: 100%;
+                        height:70%;
+                        object-fit: contain;
+                    }
+                    .label{
+                        width: 100%;
+                        height: 40px;
+                        text-align: center;
+                        display:flex;
+                        p{
+                            font-size: 15px;
+                            text-align: center;
+                            margin-bottom: 0rem;
+                            margin:auto;
+                        }
+                        input{
+                            width: 70%;
+                            border-radius: 5px;
+                            margin:auto;
+                        }
+                    }
+                    .eye-edit-delete{
+                        display: flex;
+                        padding:0px 20px;
+                        .eye{
+                            display: flex;
+                            margin: auto;
+                            color: $base-color-light;
+                            cursor: pointer;
+                        }
+                        .edit{
+                            display: flex;
+                            margin: auto;
+                            color: $base-color-light;
+                            cursor: pointer;
+                        }
+                        .delete{
+                            display: flex;
+                            margin: auto;
+                            color: $base-color-light;
+                        }
+                    }
+                }
+                .qr-third{
+                    flex:0 0 30%;
+                    height:400px;
+                    padding:25px;
+                    img{
+                        margin-top:10px;
+                        margin-bottom: 40px;
+                        width: 100%;
+                        height:70%;
+                        object-fit: contain;
+                    }
+                    p{
+                        font-size: 15px;
+                        text-align: center;
+                        margin-bottom: 1.5rem;
+                    }
+                    .eye-edit-delete{
+                        display: flex;
+                        padding:0px 20px;
+                        .eye{
+                            display: flex;
+                            margin: auto;
+                            color: $base-color-light;
+                            cursor: pointer;
+                        }
+                        .edit{
+                            display: flex;
+                            margin: auto;
+                            color: $base-color-light;
+                            cursor: pointer;
+                        }
+                        .delete{
+                            display: flex;
+                            margin: auto;
+                            color: $base-color-light;
+                        }
+                    }
+                }
+            }
+        }
+        .preview-part{
+            flex:34%;
+            height:100%;
+            background-color:$gray-light;
+            position: relative;
+            .title{
+                text-align: center;
+                margin-top: 120px;
+                font-size: 19px;
+                font-weight: 500;
+                color:$font-color;
+            }
+            .phone-frame{
+                //text-align: center;
+                .phone{
+                    width: 260px;
+                    position: absolute;
+                    left:50%;
+                    margin-left:-130px;
+                }
+                .phone-screen{
+                    background-color:#000000cc;
+                    width:260px;
+                    margin: auto;
+                    height: 525px;
+                    border-radius: 55px;
+                    padding: 8px;
+                    position:relative;
+                    .background{
+                        position: absolute;
+                        object-fit: cover;
+                        width:100%;
+                        height: 100%;
+                        margin: -8px;
+                        border-radius: 43px;
+                        opacity: 0.1;
+                        z-index: 22;
+                    }
+                    .icon{
+                        
+                        margin-bottom: 16px;
+                        color:$base-color-light;
+                        display: flex;
+                        margin: auto;
+                        margin-top: 190px;
+                    }
+                    h5{
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 300;
+                        text-align: center;
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .statistics{
+        margin:0 7%;
+    }
+}

@@ -1,0 +1,108 @@
+.detailed-menu-category {
+  background-color: #efefef;
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  max-width: 415px;
+  max-height: 823px;
+  position: relative; }
+  .detailed-menu-category .category-phone {
+    width: 100%;
+    height: 25%; }
+    .detailed-menu-category .category-phone .restaurant-photo {
+      position: absolute;
+      width: 100%;
+      height: 25%;
+      object-fit: cover;
+      justify-content: center; }
+    .detailed-menu-category .category-phone .backdrop {
+      position: absolute;
+      width: 100%;
+      height: 25%;
+      background: #000000a6; }
+    .detailed-menu-category .category-phone .back-btn {
+      color: white;
+      height: 16%;
+      padding: 8px 8px 2px 8px;
+      cursor: pointer;
+      position: relative; }
+    .detailed-menu-category .category-phone .avatar-name {
+      width: 100%;
+      height: 84%;
+      display: flex;
+      position: relative; }
+      .detailed-menu-category .category-phone .avatar-name .avatar {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        border-radius: 50%;
+        border: 2px solid #f36e21;
+        margin-left: 20px;
+        margin-right: 20px; }
+      .detailed-menu-category .category-phone .avatar-name .name {
+        color: white;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-left: 10px; }
+        .detailed-menu-category .category-phone .avatar-name .name p {
+          font-size: 18px;
+          font-weight: bold;
+          margin-bottom: 2px; }
+        .detailed-menu-category .category-phone .avatar-name .name span {
+          font-size: 13px; }
+    .detailed-menu-category .category-phone .title {
+      width: 100%;
+      height: 50px;
+      background: white;
+      margin-bottom: 3px;
+      padding-left: 20px;
+      align-items: center;
+      display: flex; }
+      .detailed-menu-category .category-phone .title p {
+        margin-bottom: 0px;
+        font-weight: bold;
+        letter-spacing: 1px; }
+    .detailed-menu-category .category-phone .detailed-foods {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 0px; }
+      .detailed-menu-category .category-phone .detailed-foods .food {
+        height: 100%;
+        width: 100%;
+        background: white;
+        padding: 7px 20px;
+        margin-bottom: 3px;
+        display: flex; }
+        .detailed-menu-category .category-phone .detailed-foods .food .image {
+          width: 33%;
+          height: 100px;
+          border-radius: 7px;
+          object-fit: cover; }
+        .detailed-menu-category .category-phone .detailed-foods .food .description {
+          padding-left: 15px; }
+          .detailed-menu-category .category-phone .detailed-foods .food .description p {
+            font-size: 12px;
+            padding-top: 13px;
+            margin-bottom: 5px;
+            font-weight: bold; }
+          .detailed-menu-category .category-phone .detailed-foods .food .description h4 {
+            font-size: 8px; }
+          .detailed-menu-category .category-phone .detailed-foods .food .description h5 {
+            font-size: 12px;
+            font-weight: 500; }
+    .detailed-menu-category .category-phone .phone-footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px; }
+      .detailed-menu-category .category-phone .phone-footer p {
+        font-size: 9px;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 0px;
+        padding-right: 6px;
+        letter-spacing: 1px; }
+      .detailed-menu-category .category-phone .phone-footer img {
+        width: 65px;
+        height: 20px; }

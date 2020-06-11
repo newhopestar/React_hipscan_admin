@@ -1,0 +1,92 @@
+.profile-phone-screen {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  opacity: 0.9;
+  max-width: 415px;
+  max-height: 823px; }
+  .profile-phone-screen .profile {
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    position: relative; }
+    .profile-phone-screen .profile .background {
+      position: absolute;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      margin: -12px;
+      opacity: 0.1;
+      z-index: -1; }
+    .profile-phone-screen .profile .profile-photo {
+      height: 30%;
+      display: flex; }
+      .profile-phone-screen .profile .profile-photo img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #f36e21;
+        justify-content: center;
+        margin: auto;
+        margin-top: 25px; }
+    .profile-phone-screen .profile .display-name {
+      height: 40px;
+      margin-top: 10px; }
+      .profile-phone-screen .profile .display-name p {
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        padding: 5px 0px;
+        margin-bottom: 0px; }
+    .profile-phone-screen .profile .social-icons {
+      display: flex;
+      justify-content: space-around;
+      padding: 5px 10px; }
+      .profile-phone-screen .profile .social-icons .social {
+        background: #f78e1e;
+        padding: 5px;
+        border-radius: 50%; }
+    .profile-phone-screen .profile .description {
+      height: 18%;
+      padding: 14px; }
+      .profile-phone-screen .profile .description p {
+        text-align: center;
+        color: white;
+        font-size: 10px;
+        word-break: break-all; }
+    .profile-phone-screen .profile .contact-info p {
+      color: #f78e1e;
+      font-size: 13px;
+      margin-bottom: 5px;
+      text-align: center;
+      padding-top: 5px; }
+    .profile-phone-screen .profile .contact-info h5 {
+      color: #f78e1e;
+      font-size: 13px;
+      margin-bottom: 5px;
+      text-align: center; }
+    .profile-phone-screen .profile .video-screen {
+      background: #161617;
+      height: 22%;
+      display: flex;
+      width: 90%;
+      margin: auto; }
+      .profile-phone-screen .profile .video-screen .play {
+        color: #f36e21;
+        margin: auto; }
+    .profile-phone-screen .profile .phone-footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px; }
+      .profile-phone-screen .profile .phone-footer p {
+        font-size: 7px;
+        color: white;
+        margin-bottom: 0px;
+        padding-right: 6px;
+        letter-spacing: 1px; }
+      .profile-phone-screen .profile .phone-footer img {
+        width: 60px;
+        height: 16px; }

@@ -1,0 +1,97 @@
+@import '../../assets/scss/config.scss';
+.launch-product{
+    .hipscan{
+        position:relative;
+        height:760px;
+        width: 100%;
+        display:flex;
+        .action-part{
+            flex: 66%;
+            height:100%;
+            .action-image{
+                width: 66%;
+                height: 100%;
+                position: absolute;
+                opacity: 0.03;
+                z-index: -1;
+                object-fit: cover;
+            }
+            .action{
+                padding:18px 80px;
+                .goto{
+                    text-decoration: none;
+                    color:$base-color;
+                    svg{
+                        margin-bottom: 3px;
+                    }
+                }
+                h1{
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    margin: 21px 0px;
+                    color:$font-color;
+                }
+                .product-img-upload{
+                    @extend %file-upload-input;
+                }
+                .product{
+                    display:flex;
+                    justify-content: space-between;
+                    padding:25px 0px;
+                    .product-name{
+                        @extend %common-input;
+                        width:62%;
+                    }
+                    .product-price{
+                        @extend %common-input;
+                        width:34%;
+                    }
+                }
+                .display-video{
+                    @extend %video-url-input;
+                }
+                .product-description{
+                    @extend %textarea-input;
+                    margin:25px 0px 0px 0px;
+                }
+                .save-continue-btn {
+                    @extend %save-continue-btn;
+                }
+            }
+        }
+        .preview-part{
+            flex:34%;
+            height:100%;
+            background-color:$gray-light;
+            position: relative;
+            .title{
+                text-align: center;
+                margin-top: 120px;
+                font-size: 19px;
+                font-weight: 500;
+                color:$font-color;
+            }
+            .phone-frame{
+                text-align: center;
+                .phone{
+                    width: 260px;
+                    position: absolute;
+                    left:50%;
+                    margin-left:-130px;
+                }
+                .phone-screen{
+                    background-color:$gray-light;
+                    width:260px;
+                    margin: auto;
+                    height: 525px;
+                    border-radius: 55px;
+                    padding: 8px;
+                }
+            }
+        }
+
+    }
+    .statistics{
+        margin:0 7%;
+    }
+}

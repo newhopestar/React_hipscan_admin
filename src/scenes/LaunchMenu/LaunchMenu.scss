@@ -1,0 +1,164 @@
+@import '../../assets/scss/config.scss';
+.launch-menu{
+    .hipscan{
+        position:relative;
+        height:760px;
+        width: 100%;
+        display:flex;
+        .action-part{
+            flex: 66%;
+            height:100%;
+            .action-image{
+                width: 66%;
+                height: 100%;
+                position: absolute;
+                opacity: 0.03;
+                z-index: -1;
+                object-fit: cover;
+            }
+            .action{
+                padding:18px 80px;
+                .goto{
+                    text-decoration: none;
+                    color:$base-color;
+                    svg{
+                        margin-bottom: 3px;
+                    }
+                    
+                }
+                h1{
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    margin: 21px 0px;
+                    color:$font-color;
+                }
+                p{
+                    font-size: 15px;
+                    font-weight: 500;
+                    span{
+                        color:$base-color-light;
+                    }
+                }
+                .input-field{
+                     justify-content: space-between;
+                     display: flex;
+                    .file-upload{
+                        @extend %file-upload-input;
+                        width:47%;
+                        
+                    }
+                    .common-input{
+                        @extend %common-input;
+                        width:47%;
+                    }
+                }
+                .textarea-input{
+                    @extend %textarea-input;
+                    margin:25px 0px;
+                }
+                .btns{
+                    display: flex;
+                    .contact-info-btn{
+                        @extend %contact-info-btn;
+                        margin-right: 20px;
+                    }
+                    .goto-menu-btn{
+                        @extend %contact-info-btn;
+                        flex:1;
+                    }
+                    .theme-select{
+                        display:flex;
+                        p{
+                            margin: auto;
+                            margin-right: 19px;
+                            font-size: 16px;
+                        }
+                        .theme{
+                            position: relative;
+                            display:flex;
+                            width:120px;
+                            input{
+                                height: 48px;
+                                width: 100%;
+                                border-radius: 10px;
+                                border-color:$font-color;
+                                padding-left: 22px;
+                                border: 1px solid $font-color;
+                               // background-color:#e2008c;
+                            }
+                            .icon{
+                                position: absolute;
+                                right: 0px;
+                                background-color: white;
+                                color: $font-color;
+                                height: 48px;
+                                width: 50px;
+                                padding: 4px;
+                                text-align: center;
+                                border-top-right-radius: 10px;
+                                border-bottom-right-radius: 10px;
+                                border: 1px solid $font-color;
+                                cursor: pointer;
+                            }
+                            .picker{
+                                .sketch-picker{
+                                    position: absolute;
+                                    margin-top: 50px;
+                                    margin-left: -220px;
+                                    input {
+                                        border-radius: 0px !important;
+                                        height: 20px !important;
+                                        outline: none;
+                                    }
+                                }
+                            }
+                            
+                        }
+
+                    }
+                }
+                .save-continue-btn {
+                    @extend %save-continue-btn;
+                    display:block;
+                }
+               
+            }
+        }
+        .preview-part{
+            flex:34%;
+            height:100%;
+            background-color:$gray-light;
+            position: relative;
+            .title{
+                text-align: center;
+                margin-top: 120px;
+                font-size: 19px;
+                font-weight: 500;
+                color:$font-color;
+            }
+            .phone-frame{
+                //text-align: center;
+                .phone{
+                    width: 260px;
+                    position: absolute;
+                    left:50%;
+                    margin-left:-130px;
+                }
+                .phone-screen{
+                    background-color:black;
+                    width:260px;
+                    margin: auto;
+                    height: 525px;
+                    border-radius: 55px;
+                    padding: 8px;
+                    z-index:-2;
+                    opacity: 0.9;
+                }
+            }
+        }
+
+    }
+    .statistics{
+        margin:0 7%;
+    }
+}

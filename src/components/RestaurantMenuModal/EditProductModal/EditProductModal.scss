@@ -1,0 +1,113 @@
+@import '../../../assets/scss/config.scss';
+.menu-modal-container{
+    max-width:62% !important;
+    margin-top: 116px !important;
+    .modal-content{
+        .modal-header{
+            padding: 60px 60px 20px;
+            .modal-title{
+                font-size: 38px;
+                font-weight: 700;
+            }
+        }
+        .modal-body{
+            padding:20px 60px 40px;
+            border:$base-color;
+            .edit-product{
+                display:flex ;
+                width:100%;
+                margin-bottom: 20px;
+                .input-field{
+                    width:75%;
+                    .image-upload{
+                        padding:15px 0px;
+                        @extend %file-upload-input;
+                    }
+                    .name-price{
+                        padding:12px 0px;
+                        display: flex;
+                        justify-content: space-between;
+                        .name{
+                            width:68%;
+                            @extend %common-input;
+                        }
+                        .price{
+                            width:28%;
+                            @extend %common-input;
+                        }
+                    }
+                    .description{
+                        padding:12px 0px;
+                        display: flex;
+                        justify-content: space-between;
+                        
+                        @extend %textarea-input;
+                    }
+                }
+                .image-preview{
+                    width:25%;
+                    padding: 40px 20px 40px 40px;
+                    .image{
+                        width:100%;
+                        height:150px;
+                        background:$gray-light;
+                        display:flex;
+                        align-items: center;
+                        ._image{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: contain;
+                        }
+                        p{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            .modifiers{
+                display:flex ;
+                width:100%;
+                border-top: solid 1px;
+                border-color:$base-color;
+                .input-field{
+                    width:75%;
+                    p{
+                        color:$base-color;
+                        margin-top: 20px;
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                    .first{
+                        padding:6px 0px;
+                        display: flex;
+                        justify-content: space-between;
+                        .name{
+                            width:68%;
+                            @extend %common-input;
+                        }
+                        .price{
+                            width:28%;
+                            @extend %common-input;
+                        }
+                    }
+                    
+                }
+             
+            }
+            .add-btn{
+                @extend %add-btn;
+            }
+            .save-btn{
+                display: flex;
+                align-items: center;
+                p{
+                    color:$base-color;
+                    flex:1;
+                    cursor: pointer;
+                }
+                @extend %save-continue-btn;
+            }
+            
+        }
+    }
+}

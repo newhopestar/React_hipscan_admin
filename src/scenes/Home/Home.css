@@ -1,0 +1,183 @@
+.homepage .top-section {
+  position: relative; }
+  .homepage .top-section .home-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.2;
+    object-fit: cover; }
+
+.homepage .home {
+  position: relative;
+  width: 100%;
+  height: 540px;
+  display: flex; }
+  .homepage .home .home-title-container {
+    padding: 15px 0px;
+    flex: 0 0 50%; }
+    .homepage .home .home-title-container .title {
+      padding: 10px 0px;
+      font-size: 50px;
+      color: #414042;
+      font-weight: 900;
+      margin-bottom: 1rem; }
+    .homepage .home .home-title-container .description {
+      padding: 10px 0px;
+      font-size: 21px;
+      color: #f36e21;
+      font-weight: 600;
+      text-align: justify;
+      margin-bottom: 38px; }
+    .homepage .home .home-title-container .button {
+      background: #f36e21;
+      width: 100%;
+      height: 83px;
+      font-size: 21px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      border-color: black;
+      letter-spacing: 1px; }
+  .homepage .home .qrcode {
+    padding: 30px 0px;
+    width: 100%; }
+    .homepage .home .qrcode img {
+      width: 435px !important;
+      height: 435px !important;
+      float: right;
+      opacity: 0.8; }
+
+.homepage .how-home {
+  position: relative;
+  width: 100%;
+  height: 520px; }
+  .homepage .how-home .how-title {
+    padding: 80px 0px 20px 0px;
+    color: #f36e21; }
+    .homepage .how-home .how-title h1 {
+      font-weight: 800; }
+  .homepage .how-home .how-description {
+    display: flex; }
+    .homepage .how-home .how-description .description-section {
+      flex: 1;
+      padding: 30px 0px;
+      align-items: center; }
+      .homepage .how-home .how-description .description-section .number {
+        color: #f36e21;
+        font-weight: 900;
+        font-size: 64px;
+        padding: 0px 20px 0px 0px; }
+      .homepage .how-home .how-description .description-section h1 {
+        margin-bottom: 0px;
+        color: #f36e21;
+        font-weight: 600;
+        font-size: 22px;
+        display: flex;
+        align-items: center; }
+    .homepage .how-home .how-description .description-sub {
+      color: black;
+      font-size: 17px;
+      padding: 10px 20px 0px 0px; }
+
+.homepage .mid-home {
+  padding: 55px 0px 50px 0px;
+  position: relative;
+  width: 100%;
+  background: #efefef;
+  text-align: center; }
+  .homepage .mid-home p {
+    color: #f36e21;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 3px; }
+  .homepage .mid-home h1 {
+    font-weight: 900;
+    color: #414042;
+    margin-bottom: 20px; }
+  .homepage .mid-home span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #414042; }
+
+.homepage .bottom-home-wrapper {
+  position: relative; }
+  .homepage .bottom-home-wrapper .bottom-home {
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    background-color: transparent; }
+    .homepage .bottom-home-wrapper .bottom-home .restaurant-image {
+      flex: 50%;
+      width: 50%;
+      height: 100%;
+      position: relative; }
+      .homepage .bottom-home-wrapper .bottom-home .restaurant-image .fade {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.6; }
+      .homepage .bottom-home-wrapper .bottom-home .restaurant-image .restaurant {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+      .homepage .bottom-home-wrapper .bottom-home .restaurant-image .hipscan {
+        text-align: center;
+        padding: 11%;
+        position: absolute;
+        top: 20px; }
+        .homepage .bottom-home-wrapper .bottom-home .restaurant-image .hipscan h1 {
+          color: #f36e21;
+          font-weight: bold; }
+        .homepage .bottom-home-wrapper .bottom-home .restaurant-image .hipscan p {
+          color: white;
+          margin-top: 30px;
+          font-size: 1.1rem; }
+    .homepage .bottom-home-wrapper .bottom-home .retail-image {
+      flex: 50%;
+      width: 50%;
+      height: 100%;
+      position: relative; }
+      .homepage .bottom-home-wrapper .bottom-home .retail-image .fade {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.6; }
+      .homepage .bottom-home-wrapper .bottom-home .retail-image .retail {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+      .homepage .bottom-home-wrapper .bottom-home .retail-image .hipscan {
+        text-align: center;
+        padding: 11%;
+        position: absolute;
+        top: 20px; }
+        .homepage .bottom-home-wrapper .bottom-home .retail-image .hipscan h1 {
+          color: #f36e21;
+          font-weight: bold; }
+        .homepage .bottom-home-wrapper .bottom-home .retail-image .hipscan p {
+          color: white;
+          margin-top: 30px;
+          font-size: 1.1rem; }
+  .homepage .bottom-home-wrapper .aa-btn {
+    position: absolute;
+    bottom: 100px;
+    margin: auto;
+    color: white;
+    background-color: #f36e21;
+    outline: none;
+    border: none;
+    width: 44%;
+    height: 84px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    left: 28%;
+    border-radius: 8px;
+    letter-spacing: 2px; }

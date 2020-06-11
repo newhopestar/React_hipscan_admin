@@ -1,0 +1,95 @@
+@import '../../assets/scss/config.scss';
+.modal-container{
+    max-width:60% !important;
+    margin-top: 116px !important;
+    .modal-content{
+        .modal-header{
+            padding: 60px 60px 20px;
+            .modal-title{
+                font-size: 38px;
+                font-weight: 700;
+            }
+        }
+        .modal-body{
+            padding:20px 60px 40px;
+            display:flex ;
+            .input-field{
+                width:75%;
+                .image-upload{
+                    padding:15px 0px;
+                    @extend %file-upload-input;
+                }
+                .email-phone{
+                    padding:12px 0px;
+                    display: flex;
+                    justify-content: space-between;
+                    .email{
+                        width:47%;
+                        @extend %common-input;
+                    }
+                    .phone{
+                        width:47%;
+                        @extend %common-input;
+                    }
+                }
+                .website-facebook{
+                    padding:12px 0px;
+                    display: flex;
+                    justify-content: space-between;
+                    .website{
+                        width:47%;
+                        @extend %social-url-input;
+                    }
+                    .facebook{
+                        width:47%;
+                        @extend %social-url-input;
+                    }
+                }
+                .instagram-twitter{
+                    padding:12px 0px;
+                    display: flex;
+                    justify-content: space-between;
+                    .instagram{
+                        width:47%;
+                        @extend %social-url-input;
+                    }
+                    .twitter{
+                        width:47%;
+                        @extend %social-url-input;
+                    }
+                }
+                .address {
+                    padding:12px 0px;
+                    @extend %common-input;
+                }
+                .video{
+                    padding:12px 0px;
+                    @extend %video-url-input;
+                }
+                .save-btn{
+                    @extend %save-continue-btn;
+                }
+
+            }
+            .image-preview{
+                width:25%;
+                padding: 40px 20px 40px 40px;
+                .image{
+                    width:100%;
+                    height:150px;
+                    background:$gray-light;
+                    display:flex;
+                    align-items: center;
+                    .selectedImage{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

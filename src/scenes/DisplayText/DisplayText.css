@@ -1,0 +1,96 @@
+.display-text .hipscan .action-part .action .save-continue-btn .btn {
+  width: 280px;
+  height: 57px;
+  background-color: #f36e21;
+  border: none;
+  border-radius: 9px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin: 35px 0px;
+  box-shadow: none; }
+
+.display-text .hipscan .action-part .action .display-custom-text {
+  width: 100%;
+  height: 120px; }
+  .display-text .hipscan .action-part .action .display-custom-text textarea {
+    width: 100%;
+    height: 100%;
+    border-color: #414042;
+    border-radius: 10px;
+    padding: 10px 22px;
+    outline: none; }
+
+.display-text .hipscan {
+  position: relative;
+  height: 760px;
+  width: 100%;
+  display: flex; }
+  .display-text .hipscan .action-part {
+    flex: 66%;
+    height: 100%; }
+    .display-text .hipscan .action-part .action-image {
+      width: 66%;
+      height: 100%;
+      position: absolute;
+      opacity: 0.03;
+      z-index: -1;
+      object-fit: cover; }
+    .display-text .hipscan .action-part .action {
+      padding: 18px 80px; }
+      .display-text .hipscan .action-part .action .goto {
+        text-decoration: none;
+        color: #f36e21; }
+        .display-text .hipscan .action-part .action .goto svg {
+          margin-bottom: 3px; }
+      .display-text .hipscan .action-part .action h1 {
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin: 21px 0px;
+        color: #414042; }
+      .display-text .hipscan .action-part .action .display-custom-text {
+        height: 300px; }
+  .display-text .hipscan .preview-part {
+    flex: 34%;
+    height: 100%;
+    background-color: #efefef;
+    position: relative; }
+    .display-text .hipscan .preview-part .title {
+      text-align: center;
+      margin-top: 120px;
+      font-size: 19px;
+      font-weight: 500;
+      color: #414042; }
+    .display-text .hipscan .preview-part .phone-frame {
+      text-align: center; }
+      .display-text .hipscan .preview-part .phone-frame .phone {
+        width: 260px;
+        position: absolute;
+        left: 50%;
+        margin-left: -130px; }
+      .display-text .hipscan .preview-part .phone-frame .phone-screen {
+        background-color: #000000cc;
+        width: 260px;
+        margin: auto;
+        height: 525px;
+        border-radius: 55px;
+        padding: 8px; }
+        .display-text .hipscan .preview-part .phone-frame .phone-screen .preview-text {
+          color: white;
+          font-size: 11px;
+          height: 250px;
+          margin: 0px 10px;
+          word-break: break-all; }
+        .display-text .hipscan .preview-part .phone-frame .phone-screen .icon {
+          margin-top: 160px;
+          margin-bottom: 16px;
+          color: #f78e1e; }
+        .display-text .hipscan .preview-part .phone-frame .phone-screen h5 {
+          color: white;
+          font-size: 15px;
+          font-weight: 300; }
+        .display-text .hipscan .preview-part .phone-frame .phone-screen iframe {
+          border-radius: 33px; }
+
+.display-text .statistics {
+  margin: 0 7%; }

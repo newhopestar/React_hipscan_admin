@@ -1,0 +1,82 @@
+.detailed-food-category {
+  background-color: #efefef;
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  max-width: 415px;
+  max-height: 823px;
+  position: relative;
+  min-height: 100vh; }
+  .detailed-food-category .category-phone {
+    width: 100%;
+    height: 25%; }
+    .detailed-food-category .category-phone .food-photo {
+      position: absolute;
+      width: 100%;
+      height: 25%;
+      object-fit: cover;
+      justify-content: center; }
+    .detailed-food-category .category-phone .back-btn {
+      color: white;
+      height: 100%;
+      padding: 8px 8px 2px 8px;
+      cursor: pointer;
+      position: relative; }
+    .detailed-food-category .category-phone .food h4 {
+      padding: 15px 20px 5px 20px;
+      font-size: 17px;
+      font-weight: 900;
+      margin-bottom: 0px;
+      color: #f36e21; }
+    .detailed-food-category .category-phone .food p {
+      padding: 0px 20px;
+      font-size: 11px; }
+    .detailed-food-category .category-phone .additionals .title-select .title {
+      width: 100%;
+      height: 50px;
+      background-color: white;
+      padding: 0px 20px;
+      align-items: center;
+      display: flex;
+      margin-bottom: 3px; }
+      .detailed-food-category .category-phone .additionals .title-select .title h4 {
+        margin-bottom: 0px;
+        font-size: 17px;
+        font-weight: 900; }
+    .detailed-food-category .category-phone .additionals .title-select .select {
+      display: flex;
+      background-color: white;
+      width: 100%;
+      height: 60px;
+      margin-bottom: 3px;
+      align-items: center;
+      padding: 0px 20px; }
+      .detailed-food-category .category-phone .additionals .title-select .select .name {
+        flex: 0 0 80%; }
+        .detailed-food-category .category-phone .additionals .title-select .select .name p {
+          padding-left: 10px;
+          margin-bottom: 0px;
+          display: inline;
+          font-size: 15px; }
+      .detailed-food-category .category-phone .additionals .title-select .select span {
+        font-size: 15px; }
+    .detailed-food-category .category-phone .additionals .add-cart-btn {
+      height: 70px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      position: absolute;
+      margin-top: 71px; }
+      .detailed-food-category .category-phone .additionals .add-cart-btn .button {
+        height: 51px;
+        width: 90%;
+        background-color: #f36e21;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        margin: 0px; }
+        .detailed-food-category .category-phone .additionals .add-cart-btn .button span {
+          margin-left: 30%; }

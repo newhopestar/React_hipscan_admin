@@ -1,0 +1,230 @@
+.homepage {
+    .top-section {
+        position: relative;
+        .home-image {
+            width:100%;
+            height:100%;
+            position: absolute;
+            opacity: 0.2;
+            object-fit:cover;
+        }
+    }
+    .home {
+       // padding:0px 7%;
+        position: relative;
+        width:100%;
+        height:540px;
+        display:flex;
+        
+        .home-title-container{
+            padding:15px 0px;
+            flex:0 0 50%;
+            .title{
+                padding: 10px 0px;
+                font-size: 50px;
+                color:#414042;
+                font-weight: 900;
+                margin-bottom: 1rem;
+
+            }
+            .description{
+                padding:10px 0px;
+                font-size: 21px;
+                color: #f36e21;
+                font-weight: 600;
+                text-align: justify;
+                margin-bottom: 38px;
+
+            }
+            .button {
+                background: #f36e21;
+                width: 100%;
+                height: 83px;
+                font-size: 21px;
+                font-weight: 600;
+                margin-bottom: 1rem;
+                border-radius: 10px;
+                border-color: black;
+                letter-spacing: 1px;
+            }
+        }
+        .qrcode{
+            padding:30px 0px;
+            width:100%;
+            img{
+                width: 435px !important;
+                height: 435px !important;
+                float:right;
+                opacity:0.8;
+            }
+        }
+
+    
+    } 
+
+    .how-home{
+       // padding:0px 7%;
+        position: relative;
+        width:100%;
+        height:520px;
+        .how-title {
+            padding:80px 0px 20px 0px;
+            color:#f36e21;
+            h1{
+                font-weight: 800;
+            }
+        }
+        .how-description {
+            display:flex;
+            .description-section{
+                flex:1;
+                padding:30px 0px;
+                align-items: center;
+                .number {
+                    color:#f36e21;
+                    font-weight: 900;
+                    font-size: 64px;
+                    padding:0px 20px 0px 0px;
+                }
+                h1{
+                    margin-bottom: 0px;
+                    color:#f36e21;
+                    font-weight: 600;
+                    font-size: 22px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .description-sub{
+                color:black;
+                font-size: 17px;
+                padding: 10px 20px 0px 0px;
+            }
+        }
+    }
+    .mid-home{
+        padding:55px 0px 50px 0px;
+        position: relative;
+        width:100%;
+        background:#efefef;
+        text-align: center;
+        p{
+            color:#f36e21;
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: 3px;
+        }
+        h1{
+            font-weight: 900;
+            color:#414042;
+            margin-bottom:20px;
+        }
+        span{
+            font-size: 16px;
+            font-weight: 500;
+            color:#414042;
+        }
+    }
+    .bottom-home-wrapper{
+        position: relative;
+        .bottom-home{
+            padding:0px;
+            position: relative;
+            width:100%;
+            height:650px;
+            display:flex;
+            background-color: transparent;
+            .restaurant-image{
+                flex:50%;
+                width:50%;
+                height:100%;
+                position: relative;
+                .fade{
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 100%;
+                    height: 100%;
+                    background-color: black;
+                    opacity: 0.6;
+                }
+                .restaurant{
+                    width:100%;
+                    height:100%;
+                    object-fit:cover;
+                 
+                }
+                .hipscan{
+                    text-align: center;
+                    padding:11%;
+                    position: absolute;
+                    top:20px;
+                    h1{
+                        color:#f36e21;
+                        font-weight: bold;
+                    }
+                    p{
+                        color:white;
+                        margin-top: 30px;
+                        font-size: 1.1rem;
+                    }
+                }
+               
+            }
+            .retail-image{
+                flex:50%;
+                width:50%;
+                height:100%;
+                position: relative;
+                .fade{
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 100%;
+                    height: 100%;
+                    background-color: black;
+                    opacity: 0.6;
+                }
+                .retail{
+                    width:100%;
+                    height:100%;
+                    object-fit:cover;
+                    
+                }
+                .hipscan{
+                    text-align: center;
+                    padding:11%;
+                    position: absolute;
+                    top:20px;
+                    h1{
+                        color:#f36e21;
+                        font-weight: bold;
+                    }
+                    p{
+                        color:white;
+                        margin-top: 30px;
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        
+        }
+        .aa-btn{
+            position: absolute;
+            bottom: 100px;
+            margin: auto;
+            color: white;
+            background-color: #f36e21;
+            outline: none;
+            border: none;
+            width: 44%;
+            height: 84px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            left: 28%;
+            border-radius: 8px;
+            letter-spacing: 2px;
+        }
+    }
+   
+}

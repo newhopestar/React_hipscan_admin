@@ -1,0 +1,39 @@
+.headerbar {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  top: 5px; }
+  .headerbar .header {
+    padding: 30px 0px;
+    display: flex;
+    align-items: center; }
+    .headerbar .header .header-wrapper {
+      display: flex;
+      width: 100%; }
+      .headerbar .header .header-wrapper .logo {
+        width: 157px;
+        height: 60px;
+        flex: 1; }
+        .headerbar .header .header-wrapper .logo .nav {
+          display: block;
+          width: 200px;
+          height: 100%; }
+      .headerbar .header .header-wrapper .login {
+        padding: 2px; }
+        .headerbar .header .header-wrapper .login .login-button {
+          margin: 0 10px;
+          height: 91%;
+          width: 168px;
+          color: #ffb020;
+          font-size: 20px;
+          background: transparent;
+          border: none;
+          letter-spacing: 4px; }
+        .headerbar .header .header-wrapper .login .signup-button {
+          width: 168px;
+          height: 91%;
+          background: #f36e21;
+          font-size: 19px;
+          font-weight: bold;
+          border-color: black;
+          letter-spacing: 4px; }

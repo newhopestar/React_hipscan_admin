@@ -1,0 +1,197 @@
+.launch-menu .hipscan .action-part .action .save-continue-btn .btn {
+  width: 280px;
+  height: 57px;
+  background-color: #f36e21;
+  border: none;
+  border-radius: 9px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin: 35px 0px;
+  box-shadow: none; }
+
+.launch-menu .hipscan .action-part .action .btns .contact-info-btn .btn, .launch-menu .hipscan .action-part .action .btns .goto-menu-btn .btn {
+  width: 180px;
+  height: 45px;
+  background-color: #f78e1e;
+  border: none;
+  border-radius: 9px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  box-shadow: none; }
+
+.launch-menu .hipscan .action-part .action .input-field .common-input {
+  position: relative;
+  display: flex;
+  width: 100%; }
+  .launch-menu .hipscan .action-part .action .input-field .common-input input {
+    height: 57px;
+    width: 100%;
+    border-radius: 10px;
+    border-color: #414042;
+    padding-left: 22px;
+    border: 1px solid #414042;
+    outline: none; }
+
+.launch-menu .hipscan .action-part .action .input-field .file-upload {
+  position: relative;
+  display: flex;
+  width: 100%; }
+  .launch-menu .hipscan .action-part .action .input-field .file-upload input {
+    height: 57px;
+    width: 100%;
+    border-radius: 10px;
+    border-color: #414042;
+    padding-left: 22px;
+    border: 1px solid #414042;
+    outline: none; }
+  .launch-menu .hipscan .action-part .action .input-field .file-upload .icon {
+    position: absolute;
+    right: 0px;
+    background-color: #f78e1e;
+    color: white;
+    height: 57px;
+    width: 120px;
+    padding: 9px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #414042;
+    cursor: pointer; }
+  .launch-menu .hipscan .action-part .action .input-field .file-upload span {
+    border: 1px solid;
+    width: 100%;
+    height: 57px;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 20px;
+    color: #414042;
+    display: flex; }
+
+.launch-menu .hipscan .action-part .action .textarea-input {
+  width: 100%;
+  height: 120px; }
+  .launch-menu .hipscan .action-part .action .textarea-input textarea {
+    width: 100%;
+    height: 100%;
+    border-color: #414042;
+    border-radius: 10px;
+    padding: 10px 22px;
+    outline: none; }
+
+.launch-menu .hipscan {
+  position: relative;
+  height: 760px;
+  width: 100%;
+  display: flex; }
+  .launch-menu .hipscan .action-part {
+    flex: 66%;
+    height: 100%; }
+    .launch-menu .hipscan .action-part .action-image {
+      width: 66%;
+      height: 100%;
+      position: absolute;
+      opacity: 0.03;
+      z-index: -1;
+      object-fit: cover; }
+    .launch-menu .hipscan .action-part .action {
+      padding: 18px 80px; }
+      .launch-menu .hipscan .action-part .action .goto {
+        text-decoration: none;
+        color: #f36e21; }
+        .launch-menu .hipscan .action-part .action .goto svg {
+          margin-bottom: 3px; }
+      .launch-menu .hipscan .action-part .action h1 {
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin: 21px 0px;
+        color: #414042; }
+      .launch-menu .hipscan .action-part .action p {
+        font-size: 15px;
+        font-weight: 500; }
+        .launch-menu .hipscan .action-part .action p span {
+          color: #f78e1e; }
+      .launch-menu .hipscan .action-part .action .input-field {
+        justify-content: space-between;
+        display: flex; }
+        .launch-menu .hipscan .action-part .action .input-field .file-upload {
+          width: 47%; }
+        .launch-menu .hipscan .action-part .action .input-field .common-input {
+          width: 47%; }
+      .launch-menu .hipscan .action-part .action .textarea-input {
+        margin: 25px 0px; }
+      .launch-menu .hipscan .action-part .action .btns {
+        display: flex; }
+        .launch-menu .hipscan .action-part .action .btns .contact-info-btn {
+          margin-right: 20px; }
+        .launch-menu .hipscan .action-part .action .btns .goto-menu-btn {
+          flex: 1; }
+        .launch-menu .hipscan .action-part .action .btns .theme-select {
+          display: flex; }
+          .launch-menu .hipscan .action-part .action .btns .theme-select p {
+            margin: auto;
+            margin-right: 19px;
+            font-size: 16px; }
+          .launch-menu .hipscan .action-part .action .btns .theme-select .theme {
+            position: relative;
+            display: flex;
+            width: 120px; }
+            .launch-menu .hipscan .action-part .action .btns .theme-select .theme input {
+              height: 48px;
+              width: 100%;
+              border-radius: 10px;
+              border-color: #414042;
+              padding-left: 22px;
+              border: 1px solid #414042; }
+            .launch-menu .hipscan .action-part .action .btns .theme-select .theme .icon {
+              position: absolute;
+              right: 0px;
+              background-color: white;
+              color: #414042;
+              height: 48px;
+              width: 50px;
+              padding: 4px;
+              text-align: center;
+              border-top-right-radius: 10px;
+              border-bottom-right-radius: 10px;
+              border: 1px solid #414042;
+              cursor: pointer; }
+            .launch-menu .hipscan .action-part .action .btns .theme-select .theme .picker .sketch-picker {
+              position: absolute;
+              margin-top: 50px;
+              margin-left: -220px; }
+              .launch-menu .hipscan .action-part .action .btns .theme-select .theme .picker .sketch-picker input {
+                border-radius: 0px !important;
+                height: 20px !important;
+                outline: none; }
+      .launch-menu .hipscan .action-part .action .save-continue-btn {
+        display: block; }
+  .launch-menu .hipscan .preview-part {
+    flex: 34%;
+    height: 100%;
+    background-color: #efefef;
+    position: relative; }
+    .launch-menu .hipscan .preview-part .title {
+      text-align: center;
+      margin-top: 120px;
+      font-size: 19px;
+      font-weight: 500;
+      color: #414042; }
+    .launch-menu .hipscan .preview-part .phone-frame .phone {
+      width: 260px;
+      position: absolute;
+      left: 50%;
+      margin-left: -130px; }
+    .launch-menu .hipscan .preview-part .phone-frame .phone-screen {
+      background-color: black;
+      width: 260px;
+      margin: auto;
+      height: 525px;
+      border-radius: 55px;
+      padding: 8px;
+      z-index: -2;
+      opacity: 0.9; }
+
+.launch-menu .statistics {
+  margin: 0 7%; }

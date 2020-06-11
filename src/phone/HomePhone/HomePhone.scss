@@ -1,0 +1,127 @@
+@import '../../assets/scss/config.scss';
+  
+  .home-phone{
+    max-width: 415px;
+    max-height: 823px;
+    margin: auto;
+    background-color:black;
+    width:100%;
+    height: 100vh;
+    opacity: 0.9;
+    .menu{
+        width:100%;
+        height:100%;
+        padding:12px;
+        position:relative;
+        .background{
+            position: absolute;
+            object-fit: cover;
+            width:100%;
+            height: 100%;
+            margin: -12px;
+            opacity: 0.1;
+            z-index: -3;;
+        }
+        .menu-photo {
+            height: 30%;
+            display:flex;
+            img{
+                width: 140px;
+                height: 140px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 2px solid $base-color;
+                justify-content: center;
+                margin: auto;
+                margin-top: 25px;
+            }
+        }
+        .display-name{
+            height: 40px;
+            margin-top: 10px;
+            p{
+                font-size: 14px;
+                color: white;
+                text-align: center;
+                padding: 5px 0px;
+                margin-bottom: 0px;
+            }
+        }
+        .contact-info{
+            p{
+                color:white;
+                font-size: 13px;
+                margin-bottom: 5px;
+                text-align: center;
+                padding-top: 5px;
+            }
+            h5{
+                color: white;
+                font-size: 13px;
+                margin-bottom: 5px;
+                text-align: center;
+            }
+        }
+        .description{
+            height: 18%;
+            padding:7px;
+            p{
+                color:white;
+                font-size: 10px;
+                word-break: break-all;
+            }
+        }
+        p{
+            color: $base-color;
+            font-size: 14px;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        .social-icons{
+            display: flex;
+            justify-content: space-around;
+            padding:5px 10px;
+          
+            .social{
+                background: $base-color-light;
+                padding: 5px;
+                border-radius: 50%;
+            }
+        }
+        .view-menu-btn{
+            padding:23px 0px;
+            .btn{
+                width: 78%;
+                height: 40px;
+                background-color: #f78e1e;
+                border: none;
+                border-radius: 5px;
+                font-size: 11px;
+                letter-spacing: 1px;
+                font-weight: 400;
+                justify-content: center;
+                display: flex;
+                margin: auto;
+                letter-spacing: 3px;
+            }
+        }
+        .phone-footer{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            padding:12px;
+            p{
+                font-size: 7px;
+                color: white;
+                margin-bottom: 0px;
+                padding-right: 6px;
+                letter-spacing: 1px;
+            }
+            img{
+                width: 60px;
+                height: 16px;
+            }
+        }
+    }    
+   
+}

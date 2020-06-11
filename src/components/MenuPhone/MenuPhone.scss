@@ -1,0 +1,134 @@
+@import '../../assets/scss/config.scss';
+.menu-phone{
+    height: 100%;
+    .menu{
+        width:100%;
+        height:100%;
+        padding:12px;
+        position:relative;
+        .background{
+            position: absolute;
+            object-fit: cover;
+            width:100%;
+            height: 100%;
+            margin: -12px;
+            border-radius: 32px;
+            opacity: 0.1;
+            z-index: -1;
+        }
+        .menu-photo {
+            height: 30%;
+            display:flex;
+            img{
+                width: 110px;
+                height: 110px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 2px solid $base-color;
+                justify-content: center;
+                margin: auto;
+                margin-top: 30px;
+            }
+        }
+        .display-name{
+            height: 33px;
+            p{
+                font-size: 14px;
+                color: white;
+                text-align: center;
+                padding: 5px 0px;
+                margin-bottom: 0px;
+            }
+        }
+        .contact-info{
+            p{
+                color:$base-color-light;
+                font-size: 11px;
+                margin-bottom: 5px;
+                text-align: center;
+                padding-top: 5px;
+            }
+            h5{
+                color: $base-color-light;
+                font-size: 11px;
+                margin-bottom: 5px;
+                text-align: center;
+            }
+        }
+        .description{
+            height: 18%;
+            padding:7px;
+            p{
+                color:white;
+                font-size: 9px;
+                word-break: break-all;
+            }
+        }
+        p{
+            color: $base-color;
+            font-size: 13px;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        .social-icons{
+            display: flex;
+            justify-content: space-around;
+            padding:5px 10px;
+          
+            .website{
+                background: $base-color-light;
+                padding: 5px;
+                border-radius: 50%;
+            }
+            .facebook{
+                background: $base-color-light;
+                padding: 5px;
+                border-radius: 50%;
+            }
+            .twitter{
+                background: $base-color-light;
+                padding: 5px;
+                border-radius: 50%;
+            }
+            .instagram{
+                background: $base-color-light;
+                padding: 5px;
+                border-radius: 50%;
+            }
+        }
+        .view-menu-btn{
+            padding:27px 0px;
+            .btn{
+                width: 200px;
+                height: 30px;
+                background-color: #f78e1e;
+                border: none;
+                border-radius: 5px;
+                font-size: 9px;
+                letter-spacing: 1px;
+                font-weight: 400;
+                justify-content: center;
+                display: flex;
+                margin: auto;
+                letter-spacing: 3px;
+            }
+        }
+        .phone-footer{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            padding:12px;
+            p{
+                font-size: 7px;
+                color: white;
+                margin-bottom: 0px;
+                padding-right: 6px;
+                letter-spacing: 1px;
+            }
+            img{
+                width: 60px;
+                height: 16px;
+            }
+        }
+    }
+}
